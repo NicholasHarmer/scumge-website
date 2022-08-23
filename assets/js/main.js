@@ -181,7 +181,6 @@
 				}
 			});
 
-
 	// Countdown
 	(function () {
 		const second = 1000,
@@ -196,7 +195,7 @@
 			mm = String(today.getMonth() + 1).padStart(2, "0"),
 			yyyy = today.getFullYear(),
 			nextYear = yyyy + 1,
-			dayMonth = "08/13/",
+			dayMonth = "09/04/",
 			tourney = dayMonth + yyyy;
 		
 		today = mm + "/" + dd + "/" + yyyy;
@@ -218,7 +217,7 @@
 	  
 			  //do something later when date is reached
 			  if (distance < 0) {
-				document.getElementById("headline").innerText = "Scumge Tourney is live!";
+				document.getElementById("headline").innerText = "Scumgetational is live!";
 				document.getElementById("countdown").style.display = "none";
 				document.getElementById("content").style.display = "block";
 				clearInterval(x);
