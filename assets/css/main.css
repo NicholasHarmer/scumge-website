@@ -3825,7 +3825,7 @@ input, select, textarea {
 
 /* Countdown */
 
-	.countdown {
+	#countdown {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3836,13 +3836,13 @@ input, select, textarea {
 			color: #ffffff;
 			text-align: center;
 		  }
-		  .countdown h1 {
+		  #countdown h1 {
 			font-weight: normal;
 			letter-spacing: .125rem;
 			text-transform: uppercase;
 		  }
 		  
-		  .countdown li {
+		  #countdown li {
 			display: inline-block;
 			font-size: 1.5em;
 			list-style-type: none;
@@ -3850,17 +3850,17 @@ input, select, textarea {
 			text-transform: uppercase;
 		  }
 		  
-		  .countdown li span {
+		  #countdown li span {
 			display: block;
 			font-size: 3.5rem;
 		  }
 		  
-		  .countdown .emoji {
+		  #countdown .emoji {
 			display: none;
 			padding: 1rem;
 		  }
 		  
-		  .countdown .emoji span {
+		  #countdown .emoji span {
 			font-size: 4rem;
 			padding: 0 .5rem;
 		  }
